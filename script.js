@@ -47,7 +47,6 @@ Vue.component('tasks',{
             `
 })
 
-
 Vue.component('task',{
     props:['task'],
     data:function(){
@@ -93,7 +92,6 @@ Vue.component('task',{
         </li>
     `
 })
-
 
 let all = new Vue({
     el:"#root"})
